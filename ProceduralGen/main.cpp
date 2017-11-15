@@ -102,12 +102,12 @@ void printParameterError(const string& invalidParameterName)
 int main(const int argc, const char* argv[])
 {
 	//parameters that need to be converted and stored
-	short width = 65,
-		height = 65;
+	short width = 129,
+		height = 129;
 	string filename = "mountain";
-	double varianceDecay = 2,
-		raindropsPerPixel = 2;
-	uint8_t maxSlope = 15;
+	double varianceDecay = 8.5,
+		raindropsPerPixel = 8;
+	uint8_t maxSlope = 50;
 	int verboseLevel = 0;
 
 	int seed = time(0);
